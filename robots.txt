@@ -6,4 +6,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calistenicsflow-spec.github.io/sitemap.xml
+Sitemap: https://calisthenicsflow.github.io/sitemap.xml
