@@ -1,0 +1,9 @@
+# Calisthenics Flow landing
+# Note: if served via Cloudflare Tunnel or a reverse proxy, that layer may also
+# emit X-Robots-Tag. The HTML itself includes <meta name="robots" content="index,follow">.
+# python -m http.server does not set robots headers; use a real host for production.
+
+User-agent: *
+Allow: /
+
+Sitemap: /sitemap.xml

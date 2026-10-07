@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy · Calisthenics Flow</title>
+<meta name="description" content="Privacy policy for the Calisthenics Flow landing page.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0a0a09">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+<link rel="preload" href="assets/fonts/Anton.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Manrope-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Anton';src:url('assets/fonts/Anton.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url('assets/fonts/InstrumentSerif-Italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Manrope';src:url('assets/fonts/Manrope-Variable.woff2') format('woff2');font-weight:400 800;font-style:normal;font-display:swap}
+</style>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.legal{padding:120px 0 80px;max-width:720px}
+.legal h1{font-family:var(--f-display);text-transform:uppercase;font-size:clamp(40px,8vw,72px);line-height:.95;margin:0 0 12px}
+.legal .meta{color:var(--muted);font-size:14px;margin-bottom:36px}
+.legal h2{font-family:var(--f-sans);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--brand);margin:36px 0 12px}
+.legal p,.legal li{color:var(--bone-2);font-size:16px;line-height:1.65}
+.legal ul{padding-left:1.2em}
+.legal a{color:var(--bone);border-bottom:1px solid var(--line-2)}
+.legal a:hover{color:var(--brand)}
+.four{min-height:100svh;display:grid;place-items:center;text-align:center;padding:80px 24px}
+.four h1{font-family:var(--f-display);font-size:clamp(80px,18vw,180px);line-height:.9;margin:0;color:var(--brand)}
+.four p{font-size:clamp(18px,2vw,22px);color:var(--bone-2);max-width:36ch;margin:18px auto 32px}
+</style>
+<script>
+(function(){
+  var o=location.origin, path=location.pathname.replace(/[^/]+$/,'')||'/';
+  if(!/\/$/.test(path)) path+='/';
+  var home=o+path;
+  var c=document.querySelector('link[rel="canonical"]');
+  if(c) c.setAttribute('href', home + 'privacy.html');
+})();
+</script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<header class="nav is-scrolled" id="nav">
+  <div class="nav__in">
+    <a class="brand" href="index.html" aria-label="Calisthenics Flow — home">
+      <img src="assets/brand/mark.png" alt="" width="44" height="34">
+      <img class="brand__word" src="assets/brand/wordmark.png" alt="Calisthenics Flow" width="44" height="30">
+    </a>
+    <a class="btn btn--primary btn--sm" href="index.html#club">Start free trial</a>
+  </div>
+</header>
+
+<main class="wrap legal">
+  <p class="eyebrow">Legal</p>
+  <h1>Privacy</h1>
+  <p class="meta">Last updated: <span data-month-year>October 2026</span> · Applies to this landing page</p>
+
+  <p>This is my static website for <strong style="color:var(--bone)">Calisthenics Flow</strong> (Iurii Zubarev, Montréal, Canada). I built it to respect your privacy.</p>
+
+  <h2>What we collect on this site</h2>
+  <p><strong style="color:var(--bone)">Nothing.</strong> This landing page does not use cookies, analytics scripts, advertising pixels, newsletter forms or account logins. Visiting the page does not create a profile on my servers beyond what the host’s access logs may retain (IP, user-agent, timestamp) for security and operations.</p>
+
+  <h2>Links to third parties</h2>
+  <p>Buttons and links take you to services I do not control. Those services have their own privacy policies:</p>
+  <ul>
+    <li><a href="https://www.patreon.com/policy/privacy" target="_blank" rel="noopener">Patreon</a> — memberships, shop purchases, payments</li>
+    <li><a href="https://privacycenter.instagram.com/policy" target="_blank" rel="noopener">Instagram / Meta</a> — profile, DMs</li>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">YouTube / Google</a></li>
+    <li><a href="https://www.tiktok.com/legal/page/us/privacy-policy/en" target="_blank" rel="noopener">TikTok</a></li>
+    <li>Email (Gmail) if you write to <a href="mailto:calistenicsflow@gmail.com">calistenicsflow@gmail.com</a></li>
+  </ul>
+  <p>If you join my Club, buy a program or apply for coaching with me, your data is handled by those platforms — not by this static page.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:calistenicsflow@gmail.com">calistenicsflow@gmail.com</a>. I respond from Montréal, Canada (Québec). If you are in the EU/EEA or UK, you may also have rights of access, correction and deletion for any personal data I hold from email correspondence — ask and I will help.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, I will update the date above. Continued use of the site after a change means you accept the updated policy.</p>
+</main>
+<script>document.querySelectorAll('[data-month-year]').forEach(function(el){try{el.textContent=new Date().toLocaleString('en-US',{month:'long',year:'numeric'})}catch(e){}});</script>
+
+<footer class="footer">
+  <div class="wrap footer__bottom" style="margin-top:0;border-top:0;padding-top:0">
+    <span>© <span data-year>2026</span> Calisthenics Flow · Iurii Zubarev</span>
+    <span><a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+  </div>
+</footer>
+<script>document.querySelectorAll('[data-year]').forEach(function(el){el.textContent=new Date().getFullYear()});</script>
+</body>
+</html>
